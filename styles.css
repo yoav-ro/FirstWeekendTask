@@ -1,6 +1,16 @@
 #navbar
 {
+    height: 20vh;
+    background-color: cornflowerblue;
     position: fixed;
     top: 0;
     left: 0;
 }
+@media screen and (max-width: 500px) 
+ {
+    #navbar
+    {
+        background-color: burlywood;
+    }
+}
+
