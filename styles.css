@@ -1,8 +1,10 @@
 #navbar
 {
-    height: 100px;
-    width: 900px;
-    background-image:url("https://t4.ftcdn.net/jpg/03/67/77/59/360_F_367775957_UMmb63PtKFsFUG0E6ikyKSIsVVA5GW2b.jpg");
+    height: 100vh;
+    width: 250px;
+    background-image:url("https://i.pinimg.com/736x/b6/66/be/b666be827a3271a5ef94cc0a43baf825.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
     position: fixed;
     top: 0;
     left: 0;
@@ -17,6 +19,39 @@
 .nav-link
 {
     color:white;
+    font-size: large;
+    text-align: center;
+}
+#nav-list
+{
+    columns: 1;
+    
+}
+.main-section
+{
+    margin-left: 260px;
+    width: 50%;
+}
+body
+{
+    /* Thanks https://cssgradient.io/ ! */
+    background: #005AA7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#nav-top
+{
+    /* Thanks https://html-css-js.com/css/generator/text-shadow/ ! */
+        color: #FFFFFF;
+        text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+        color: #FFFFFF;
+        text-align: center;
+}
+.section-header
+{
+    font-size: larger;
+    font-weight: bold;
 }
 
 
