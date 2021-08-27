@@ -1,7 +1,8 @@
 #navbar
 {
-    height: 20vh;
-    background-color: cornflowerblue;
+    height: 100px;
+    width: 900px;
+    background-image:url("https://t4.ftcdn.net/jpg/03/67/77/59/360_F_367775957_UMmb63PtKFsFUG0E6ikyKSIsVVA5GW2b.jpg");
     position: fixed;
     top: 0;
     left: 0;
@@ -13,4 +14,9 @@
         background-color: burlywood;
     }
 }
+.nav-link
+{
+    color:white;
+}
+
 
