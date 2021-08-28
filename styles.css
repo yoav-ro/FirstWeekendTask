@@ -11,10 +11,20 @@
 }
 @media screen and (max-width: 500px) 
  {
-    #navbar
+    .parts
     {
-        background-color: burlywood;
+        visibility:hidden;
+        height: 0px;
+        width: 0px;
     }
+}
+.parts
+{
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .nav-link
 {
@@ -24,11 +34,12 @@
 }
 #nav-list
 {
-    columns: 1;
-    
+    columns: 1; 
 }
 .main-section
 {
+    font-size: medium;
+    font-family :sans-serif;
     margin-left: 260px;
     width: 50%;
 }
